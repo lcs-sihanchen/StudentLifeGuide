@@ -13,6 +13,8 @@
 		9C8A848025C052B700296A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A846B25C052AA00296A6E /* ContentView.swift */; };
 		9C8A848125C052B700296A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8A846C25C052B700296A6E /* Assets.xcassets */; };
 		9C8A848225C052B700296A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8A846C25C052B700296A6E /* Assets.xcassets */; };
+		9C8A849325C053B600296A6E /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A849225C053B600296A6E /* LifeGuide.swift */; };
+		9C8A849425C053B600296A6E /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A849225C053B600296A6E /* LifeGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		9C8A847925C052B700296A6E /* StudentLifeGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentLifeGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8A847B25C052B700296A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C8A847C25C052B700296A6E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9C8A849225C053B600296A6E /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9C8A846A25C052AA00296A6E /* StudentLifeGuideApp.swift */,
-				9C8A846B25C052AA00296A6E /* ContentView.swift */,
+				9C8A848D25C052C100296A6E /* Model */,
+				9C8A848F25C052D500296A6E /* View */,
 				9C8A846C25C052B700296A6E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +92,22 @@
 				9C8A847C25C052B700296A6E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9C8A848D25C052C100296A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C8A849225C053B600296A6E /* LifeGuide.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C8A848F25C052D500296A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C8A846B25C052AA00296A6E /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8A849325C053B600296A6E /* LifeGuide.swift in Sources */,
 				9C8A847F25C052B700296A6E /* ContentView.swift in Sources */,
 				9C8A847D25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */,
 			);
@@ -196,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8A849425C053B600296A6E /* LifeGuide.swift in Sources */,
 				9C8A848025C052B700296A6E /* ContentView.swift in Sources */,
 				9C8A847E25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */,
 			);
