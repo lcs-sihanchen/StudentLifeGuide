@@ -11,7 +11,14 @@ import SwiftUI
 struct StudentLifeGuideApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            NavigationView {
+                LifeGuideDetailView()
+            }
+            
+            
+            
+            
         }
     }
 }
