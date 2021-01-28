@@ -12,8 +12,14 @@ struct StudentLifeGuideApp: App {
     var body: some Scene {
         WindowGroup {
             
-            NavigationView {
-                LifeGuideDetailView(lifeGuide: LifeGuide.example)
+            TabView {
+                
+                
+                NavigationView {
+                    LifeGuideList(lifeGuide: testStore)
+                }.tabItem { /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Item Label@*/Text("Label")/*@END_MENU_TOKEN@*/ }
+                
+                
             }
             
             

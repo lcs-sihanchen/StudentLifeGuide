@@ -19,12 +19,13 @@ struct LifeGuideDetailView: View {
             
             
             
+            Text(lifeGuide.description)
             
-            Text(lifeGuide.name)
-                    
-                Spacer()
-                
-            }.navigationTitle("Student Life Guide")
+            Text(lifeGuide.warning)
+            Spacer()
+              
+            
+        }.navigationTitle(lifeGuide.name)
             
             
         
