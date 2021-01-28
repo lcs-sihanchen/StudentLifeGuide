@@ -9,21 +9,25 @@ import SwiftUI
 
 struct LifeGuideDetailView: View {
     
+    let lifeGuide: LifeGuide
     
     
     var body: some View {
+       
+        
         ScrollView {
             
             
-            HStack {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
+            
+            Text(lifeGuide.name)
                     
                 Spacer()
                 
             }.navigationTitle("Student Life Guide")
             
             
-        }
+        
         
             
     }
@@ -35,7 +39,7 @@ struct LifeGuideDetailView: View {
 struct LifeGuideDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            LifeGuideDetailView()
+            LifeGuideDetailView(lifeGuide: LifeGuide.example )
         }
         
     }

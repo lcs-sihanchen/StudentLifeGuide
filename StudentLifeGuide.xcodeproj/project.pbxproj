@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C11FE1625C0584A00F592AD /* LifeGuideStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11FE1525C0584A00F592AD /* LifeGuideStore.swift */; };
+		9C11FE1725C0584A00F592AD /* LifeGuideStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11FE1525C0584A00F592AD /* LifeGuideStore.swift */; };
 		9C8A847D25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A846A25C052AA00296A6E /* StudentLifeGuideApp.swift */; };
 		9C8A847E25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A846A25C052AA00296A6E /* StudentLifeGuideApp.swift */; };
 		9C8A848125C052B700296A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8A846C25C052B700296A6E /* Assets.xcassets */; };
@@ -18,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C11FE1525C0584A00F592AD /* LifeGuideStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideStore.swift; sourceTree = "<group>"; };
 		9C8A846A25C052AA00296A6E /* StudentLifeGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLifeGuideApp.swift; sourceTree = "<group>"; };
 		9C8A846C25C052B700296A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C8A847125C052B700296A6E /* StudentLifeGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentLifeGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				9C8A849225C053B600296A6E /* LifeGuide.swift */,
+				9C11FE1525C0584A00F592AD /* LifeGuideStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +213,7 @@
 			files = (
 				9C8A849825C0550F00296A6E /* LifeGuideDetailView.swift in Sources */,
 				9C8A849325C053B600296A6E /* LifeGuide.swift in Sources */,
+				9C11FE1625C0584A00F592AD /* LifeGuideStore.swift in Sources */,
 				9C8A847D25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +224,7 @@
 			files = (
 				9C8A849925C0550F00296A6E /* LifeGuideDetailView.swift in Sources */,
 				9C8A849425C053B600296A6E /* LifeGuide.swift in Sources */,
+				9C11FE1725C0584A00F592AD /* LifeGuideStore.swift in Sources */,
 				9C8A847E25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

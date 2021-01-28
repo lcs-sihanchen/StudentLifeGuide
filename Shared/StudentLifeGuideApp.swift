@@ -13,7 +13,7 @@ struct StudentLifeGuideApp: App {
         WindowGroup {
             
             NavigationView {
-                LifeGuideDetailView()
+                LifeGuideDetailView(lifeGuide: LifeGuide.example)
             }
             
             
