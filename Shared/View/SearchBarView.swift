@@ -41,6 +41,7 @@ struct SearchBarView: View {
                 Button("Cancel", action: {
                     self.text = ""
                     self.isEditing = false
+                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                 })
                 .padding(.trailing, 10)
                 .transition(.move(edge: .trailing))

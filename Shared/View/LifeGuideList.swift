@@ -16,27 +16,27 @@ struct LifeGuideList: View {
         VStack {
             SearchBarView(text: .constant(""))
             List(lifeGuide.store) { data in
-
+                
+                
+                NavigationLink (destination: LifeGuideDetailView(lifeGuide: LifeGuide.example
+                )) {
                     
-                    NavigationLink (destination: LifeGuideDetailView(lifeGuide: LifeGuide.example
-                    )) {
+                    
+                    VStack {
                         
-                        
-                        VStack {
-                           
-                         // Organizer this in a better way
-                            HStack {
-                                // It will be an image name later
-                                // Add a frame according to the image
-                                Image("SchoolLifeGuideCover")
-                                    .resizable()
-                                    .scaledToFit()
-                                Image(systemName: "circle")
-                                    .foregroundColor(.black)
-                                Text(data.name)
-                                    .foregroundColor(.secondary)
-                                
-                                Spacer()
+                        // Organizer this in a better way
+                        HStack {
+                            // It will be an image name later
+                            // Add a frame according to the image
+                            Image("SchoolLifeGuideCover")
+                                .resizable()
+                                .scaledToFit()
+                            Image(systemName: "circle")
+                                .foregroundColor(.black)
+                            Text(data.name)
+                                .foregroundColor(.secondary)
+                            
+                            Spacer()
                             
                         }.navigationTitle("Student Life Guide")
                         
@@ -48,6 +48,8 @@ struct LifeGuideList: View {
                 }
             }
         }
+        
+        
         
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         
@@ -64,6 +66,6 @@ struct LifeGuideList_Previews: PreviewProvider {
             
             LifeGuideList(lifeGuide: testStore)
         }
-       
+        
     }
 }
