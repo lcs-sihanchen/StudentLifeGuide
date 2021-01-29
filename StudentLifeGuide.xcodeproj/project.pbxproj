@@ -19,8 +19,8 @@
 		9C8A849925C0550F00296A6E /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A849725C0550F00296A6E /* LifeGuideDetailView.swift */; };
 		9C8BF1D025C31CB000A93DD2 /* LifeGuideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF1CF25C31CB000A93DD2 /* LifeGuideList.swift */; };
 		9C8BF1D125C31CB000A93DD2 /* LifeGuideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF1CF25C31CB000A93DD2 /* LifeGuideList.swift */; };
-		9C8BF1D525C326CF00A93DD2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF1D425C326CF00A93DD2 /* SearchBar.swift */; };
-		9C8BF1D625C326CF00A93DD2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF1D425C326CF00A93DD2 /* SearchBar.swift */; };
+		9C8BF1E325C3285A00A93DD2 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF1E225C3285A00A93DD2 /* SearchBarView.swift */; };
+		9C8BF1E425C3285A00A93DD2 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF1E225C3285A00A93DD2 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		9C8A849225C053B600296A6E /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
 		9C8A849725C0550F00296A6E /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C8BF1CF25C31CB000A93DD2 /* LifeGuideList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideList.swift; sourceTree = "<group>"; };
-		9C8BF1D425C326CF00A93DD2 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		9C8BF1E225C3285A00A93DD2 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				9C8A849225C053B600296A6E /* LifeGuide.swift */,
-				9C8BF1D425C326CF00A93DD2 /* SearchBar.swift */,
 				9C11FE1525C0584A00F592AD /* LifeGuideStore.swift */,
 			);
 			path = Model;
@@ -118,6 +117,7 @@
 			children = (
 				9C8A849725C0550F00296A6E /* LifeGuideDetailView.swift */,
 				9C8BF1CF25C31CB000A93DD2 /* LifeGuideList.swift */,
+				9C8BF1E225C3285A00A93DD2 /* SearchBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,8 +223,8 @@
 				9C8A849325C053B600296A6E /* LifeGuide.swift in Sources */,
 				9C11FE1625C0584A00F592AD /* LifeGuideStore.swift in Sources */,
 				9C8BF1D025C31CB000A93DD2 /* LifeGuideList.swift in Sources */,
+				9C8BF1E325C3285A00A93DD2 /* SearchBarView.swift in Sources */,
 				9C8A847D25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */,
-				9C8BF1D525C326CF00A93DD2 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +236,8 @@
 				9C8A849425C053B600296A6E /* LifeGuide.swift in Sources */,
 				9C11FE1725C0584A00F592AD /* LifeGuideStore.swift in Sources */,
 				9C8BF1D125C31CB000A93DD2 /* LifeGuideList.swift in Sources */,
+				9C8BF1E425C3285A00A93DD2 /* SearchBarView.swift in Sources */,
 				9C8A847E25C052B700296A6E /* StudentLifeGuideApp.swift in Sources */,
-				9C8BF1D625C326CF00A93DD2 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

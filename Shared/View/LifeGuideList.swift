@@ -13,38 +13,42 @@ struct LifeGuideList: View {
     
     var body: some View {
         
-        List(lifeGuide.store) { data in
+        VStack {
+            SearchBarView(text: .constant(""))
+            List(lifeGuide.store) { data in
 
-                
-                NavigationLink (destination: LifeGuideDetailView(lifeGuide: LifeGuide.example
-                )) {
                     
-                    
-                    VStack {
-                       
-                     // Organizer this in a better way
-                        HStack {
-                            // It will be an image name later
-                            // Add a frame according to the image
-                            Image("SchoolLifeGuideCover")
-                                .resizable()
-                                .scaledToFit()
-                            Image(systemName: "circle")
-                                .foregroundColor(.black)
-                            Text(data.name)
-                                .foregroundColor(.secondary)
-                            
-                            Spacer()
+                    NavigationLink (destination: LifeGuideDetailView(lifeGuide: LifeGuide.example
+                    )) {
                         
-                    }.navigationTitle("Student Life Guide")
-                    
+                        
+                        VStack {
+                           
+                         // Organizer this in a better way
+                            HStack {
+                                // It will be an image name later
+                                // Add a frame according to the image
+                                Image("SchoolLifeGuideCover")
+                                    .resizable()
+                                    .scaledToFit()
+                                Image(systemName: "circle")
+                                    .foregroundColor(.black)
+                                Text(data.name)
+                                    .foregroundColor(.secondary)
+                                
+                                Spacer()
+                            
+                        }.navigationTitle("Student Life Guide")
+                        
+                        
+                        
+                    }
                     
                     
                 }
-                
-                
             }
         }
+        
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         
         

@@ -15,9 +15,12 @@ struct StudentLifeGuideApp: App {
             TabView {
                 
                 
-                NavigationView {
-                    LifeGuideList(lifeGuide: testStore)
-                }.tabItem { /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Item Label@*/Text("Label")/*@END_MENU_TOKEN@*/ }
+                VStack {
+                    
+                    NavigationView {
+                        LifeGuideList(lifeGuide: testStore)
+                    }.tabItem { /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Item Label@*/Text("Label")/*@END_MENU_TOKEN@*/ }
+                }
                 
                 
             }
