@@ -11,23 +11,13 @@ import SwiftUI
 struct StudentLifeGuideApp: App {
     var body: some Scene {
         WindowGroup {
-            
             TabView {
-                
-                
                 VStack {
-                    
                     NavigationView {
-                        LifeGuideList(lifeGuide: testStore)
+                        LifeGuideList()
                     }.tabItem { /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Item Label@*/Text("Label")/*@END_MENU_TOKEN@*/ }
                 }
-                
-                
             }
-            
-            
-            
-            
         }
     }
 }

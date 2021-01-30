@@ -9,19 +9,24 @@ import SwiftUI
 
 struct LifeGuideList: View {
     
-    @ObservedObject var lifeGuide: LifeGuideStore
+    //    @ObservedObject var lifeGuide: LifeGuideStore
+    //    @ObservedObject var lifeGuides: LifeGuides
     
     var body: some View {
         
         VStack {
             SearchBarView(text: .constant(""))
-            List(lifeGuide.store) { data in
+            //    @ObservedObject var lifeGuide: LifeGuideStore
+            //    @ObservedObject var lifeGuides: LifeGuides
+            let lifeGuides2 = LifeGuides()
+            
+            
+            List(lifeGuides2.list) { data in
                 
                 
-                NavigationLink (destination: LifeGuideDetailView(lifeGuide: LifeGuide.example
+                NavigationLink (destination: LifeGuideDetailView(lifeGuide: data
                 )) {
-                    
-                    
+                
                     VStack {
                         
                         // Organizer this in a better way
@@ -39,23 +44,11 @@ struct LifeGuideList: View {
                             Spacer()
                             
                         }.navigationTitle("Student Life Guide")
-                        
-                        
-                        
+  
                     }
-                    
-                    
                 }
-            }
+            }.buttonStyle(PlainButtonStyle())
         }
-        
-        
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-        
-        
-        
     }
 }
 
@@ -64,8 +57,9 @@ struct LifeGuideList_Previews: PreviewProvider {
         
         NavigationView {
             
-            LifeGuideList(lifeGuide: testStore)
+            LifeGuideList()
         }
-        
     }
 }
+
+
